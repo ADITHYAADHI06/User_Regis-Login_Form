@@ -1,0 +1,35 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+.footer{
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer p{
+   margin: 0 !important;
+  }
+ 
+  .login_box{
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+
+   
+      background-color: rgb(250, 249, 248);
+  }
+.userImg{
+    max-width:100px;
+    height: 100px;
+}
